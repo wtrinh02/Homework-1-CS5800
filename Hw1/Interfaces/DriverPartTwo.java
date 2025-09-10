@@ -18,12 +18,7 @@ public class DriverPartTwo {
 
         double total = 0;
         for(Payable element:Payables){
-            if(element instanceof Freelance){
-                ((Freelance)element).Print();
-            }
-            else if (element instanceof VendorInvoice){
-                ((VendorInvoice)element).Print();
-            }
+            element.Print();
 
             total += element.calculatePayment();
         }
