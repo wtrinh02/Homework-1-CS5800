@@ -65,7 +65,7 @@ public class Freelance implements Payable{
         }
     }
 
-    public void setHoursWorkd(double hoursWorked){
+    public void setHoursWorked(double hoursWorked){
         if (hoursWorked >=0){
             this.hoursWorked = hoursWorked;
         }
