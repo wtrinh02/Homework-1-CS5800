@@ -1,7 +1,7 @@
 package Composition;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
+
 
 public class Folder {
     
@@ -33,6 +33,14 @@ public class Folder {
         this.folderName = newName;
     }
 
+    public void setSubFolders(ArrayList<Folder> newSubfolders){
+        this.subFolders = newSubfolders;
+    }
+
+    public void setFiles(ArrayList<File> newFiles){
+        this.files = newFiles;
+    }
+
     public void addFile(String fileName){
         
         this.files.add(new File(fileName));
@@ -53,10 +61,6 @@ public class Folder {
     }
 
     public void print(){
-        //For each sub folder of root, check if they have sub folders, if they do traverse them and repeat until they dont,
-        // if not print all their files
-        //should end with files of the root
-        //Similar to DFS Neighbors are subfolders and if no neighbors call their files print function
 
         System.out.println(this.folderName);
 
