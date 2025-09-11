@@ -16,6 +16,6 @@ public class File {
     }
 
     public void print(){
-        System.out.println("FileName: " + this.name);
+        System.out.println(this.name);
     }
 }
