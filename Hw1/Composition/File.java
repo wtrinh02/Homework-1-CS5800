@@ -14,4 +14,8 @@ public class File {
     public void setName(String newName){
         this.name = newName;
     }
+
+    public void print(){
+        System.out.println("FileName: " + this.name);
+    }
 }
