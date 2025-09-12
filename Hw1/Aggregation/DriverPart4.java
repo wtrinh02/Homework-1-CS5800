@@ -9,7 +9,7 @@ public class DriverPart4 {
         currentCourse.Print();
         System.out.println("Office: " + currentCourse.getInstructor().getOfficeNumber());
 
-        Instructor Marin = new Instructor("Ericsson", "Marin", "8-39");
+       Instructor Marin = new Instructor("Ericsson", "Marin", "8-39");
         Textbook tBook = new Textbook("Machine Learning", "T.M. Mitchell", "McGraw-Hill");
 
         Course twoCourse = new Course("Test Course", Nima, Marin, book, tBook);

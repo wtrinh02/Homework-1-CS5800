@@ -5,7 +5,6 @@ import java.util.ArrayList;
 
 public class Folder {
     
-    // Change to only take name in for constructor and initialize other variables with black arraylists
     private ArrayList<File> files;
     private ArrayList<Folder> subFolders;
     String folderName;
